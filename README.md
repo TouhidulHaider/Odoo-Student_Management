@@ -1,4 +1,3 @@
-
 # Student Management Odoo Module
 
 ## Installation Steps
@@ -47,3 +46,41 @@
   - *Problem:* The module icon was not visible in the Apps list.
   - *Solution:* Added the `icon` key to the `__manifest__.py`.
 
+## Screenshots
+
+### Apps page
+<img width="1878" height="977" alt="apps_page" src="https://github.com/user-attachments/assets/c50f5a8a-4c95-4bb2-95a0-6c422d2bf429" />
+
+### My custom Student Management Module
+<img width="1904" height="1032" alt="custom_student_management_module" src="https://github.com/user-attachments/assets/119846be-4880-44ed-a923-b34663b9fd96" />
+
+### Models (student, course)
+<img width="1905" height="1035" alt="student course_model" src="https://github.com/user-attachments/assets/26a7bc2e-a4f2-42ae-b033-e41ef18d8bd3" />
+
+### Tree/List and Form views
+<img width="1912" height="987" alt="views" src="https://github.com/user-attachments/assets/2ea3dab4-55bf-4ac3-9c09-d1e8c8dc5269" />
+
+### Menus
+```
+student_management/
+├── Students
+├── Courses
+```
+<img width="640" height="317" alt="menus" src="https://github.com/user-attachments/assets/6b0430cd-a63d-4fef-b8a8-5377308821e5" />
+<br>
+
+### Student Form View
+<img width="1908" height="987" alt="student_form_view" src="https://github.com/user-attachments/assets/c929f930-5db9-4fd9-8bb8-f3b131916b51" />
+<br>
+
+### Course Form view
+<img width="1909" height="985" alt="course_form_view" src="https://github.com/user-attachments/assets/d71328f4-89d9-4fbb-812e-822cdcf54180" />
+
+### New Student Enrollment
+<img width="1914" height="943" alt="new_student_enrollment" src="https://github.com/user-attachments/assets/f4a931a4-99d2-403a-a0d7-68e5ba9bd434" />
+
+### Individual Student View
+<img width="1909" height="983" alt="individual_student_view" src="https://github.com/user-attachments/assets/560f2bbf-92f3-42b9-b383-de83ac485c04" />
+
+### Add New Course
+<img width="1913" height="980" alt="new_course_create_view" src="https://github.com/user-attachments/assets/1927f908-7970-4aad-bf25-2459c207d78e" />
