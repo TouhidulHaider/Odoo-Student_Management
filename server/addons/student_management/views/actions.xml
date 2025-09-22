@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Student Action -->
+    <record id="action_student" model="ir.actions.act_window">
+        <field name="name">Students</field>
+        <field name="res_model">student.management.student</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first student!
+            </p>
+            <p>
+                Add students and enroll them in courses.
+            </p>
+        </field>
+    </record>
+
+    <!-- Course Action -->
+    <record id="action_course" model="ir.actions.act_window">
+        <field name="name">Courses</field>
+        <field name="res_model">student.management.course</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first course!
+            </p>
+            <p>
+                Add courses and enroll students in them.
+            </p>
+        </field>
+    </record>
+
+    <!-- Course Report Action -->
+    <record id="action_course_report" model="ir.actions.act_window">
+        <field name="name">Course Enrollment Report</field>
+        <field name="res_model">student.management.course</field>
+        <field name="view_mode">list,form</field>
+        <field name="target">current</field>
+    </record>
+</odoo>

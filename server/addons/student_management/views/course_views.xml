@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Course Form View -->
+    <record id="view_course_form" model="ir.ui.view">
+        <field name="name">course.form</field>
+        <field name="model">student.management.course</field>
+        <field name="arch" type="xml">
+            <form string="Course">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                        </group>
+                        <group>
+                            <field name="credit"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Enrolled Students">
+                            <field name="student_ids">
+                                <list>
+                                    <field name="name"/>
+                                    <field name="roll_no"/>
+                                    <field name="department"/>
+                                    <field name="email"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Course Tree View -->
+    <record id="view_course_tree" model="ir.ui.view">
+        <field name="name">course.tree</field>
+        <field name="model">student.management.course</field>
+        <field name="arch" type="xml">
+            <list string="Courses">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="credit"/>
+            </list>
+        </field>
+    </record>
+</odoo>

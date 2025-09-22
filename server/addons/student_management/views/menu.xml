@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Main Menu -->
+    <menuitem id="student_management_menu" 
+              name="Student Management" 
+              sequence="10"/>
+
+    <!-- Students Menu -->
+    <menuitem id="student_menu" 
+              name="Students" 
+              parent="student_management_menu" 
+              action="action_student" 
+              sequence="10"/>
+
+    <!-- Courses Menu -->
+    <menuitem id="course_menu" 
+              name="Courses" 
+              parent="student_management_menu" 
+              action="action_course" 
+              sequence="20"/>
+
+    <!-- Course Reports Menu -->
+    <menuitem id="course_report_menu" 
+              name="Course Reports" 
+              parent="student_management_menu" 
+              action="action_course_report" 
+              sequence="30"/>
+</odoo>
